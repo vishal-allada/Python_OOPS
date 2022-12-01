@@ -7,4 +7,4 @@ class Employee:
         print('Age: ',self.age)
 employee = Employee()
 employee.employeeDetails()
-employee.printEmployeeDetails()
+employee.printEmployeeDetails() 
