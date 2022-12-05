@@ -1,11 +1,11 @@
-class Apple:
+class Apple:   # Base class
     manufacturer = "Apple Inc."
     contactWebsite = "www.apple.com/contact"
 
     def contactDetails(self):
         print("To contact us, log on to",self.contactWebsite)
 
-class MacBook(Apple):
+class MacBook(Apple): # Derived class
     def __init__(self):
         self.yearOfManufacturer = 2017
     
